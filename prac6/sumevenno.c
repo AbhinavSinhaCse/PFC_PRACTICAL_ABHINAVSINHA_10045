@@ -10,5 +10,5 @@ int main(){
     printf("SUM = %d",sum);
 return 0;
 }
-//output = SUM = 16
-//SUM = 6
+//output :: 8
+// SUM = 20

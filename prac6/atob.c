@@ -9,5 +9,6 @@ int main(){
 
 return 0;
 }
-//output = SUM = 24
-//SUM = 10
+//output:: 4  
+// 8
+// SUM = 30
