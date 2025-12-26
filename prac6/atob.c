@@ -9,6 +9,6 @@ int main(){
 
 return 0;
 }
-//output:: 4  
+//output::4  
 // 8
 // SUM = 30

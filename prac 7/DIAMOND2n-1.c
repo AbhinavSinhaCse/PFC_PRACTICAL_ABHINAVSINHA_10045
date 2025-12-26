@@ -1,11 +1,38 @@
 #include<stdio.h>
-int main(){
-    int n;
+int main(){    
+  //ABHINAV SINHA RU-25-10045
+    int n; 
     scanf("%d",&n);
-    for (int i=1;i<=n;i++){
-        for (int j =1;j<=i;j++){printf("*");}
-        printf("\n5");}
-        
-    
-return 0;
+      
+    for(int i=1;i<=n;i++){
+        for(int space=1;space<=n-i;space++){
+     printf(" ");
+       }
+       for(int star=1;star<=2*i-1;star++){
+       printf("*");
+    }
+    printf("\n");}
+
+      for(int i=n;i>=1;i--){
+        for(int space=1;space<=n-i;space++){
+     printf(" ");
+       }
+       for(int star=1;star<=2*i-1;star++){
+       printf("*");
+    }
+    printf("\n");}
+
+return 0 ;
 }
+
+// output :5
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+// *********
+//  *******
+//   *****
+//    ***
+//     *
